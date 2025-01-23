@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+/* font-family: "Quicksand", serif; */
+
+* {
+  font-family: Quicksand;
+}
+
+.nav-container {
+  background-color: #f7f7f7;
+  height: 102px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10;
+  padding: 20px 0px 20px 0px;
+}
+
+.nav-content {
+  width: 1160px;
+  height: 62px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: antiquewhite; */
+}
+
+.logo-part {
+  width: 202px;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-logo {
+  width: 62px;
+  height: 62px;
+}
+.logo-school {
+  width: 129px;
+  height: 30px;
+  color: rgb(17, 17, 17);
+  font-family: Quicksand;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.link-sec {
+  width: 387px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.link-one {
+  color: rgb(254, 163, 1);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-decoration: none;
+}
+.link-two {
+  text-decoration: none;
+  color: rgb(1, 172, 253);
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0%;
+}
+.link-three {
+  text-decoration: none;
+  color: rgb(5, 212, 223);
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+.link-four {
+  text-decoration: none;
+  color: rgb(93, 88, 239);
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+
+.nav-btn {
+  width: 197px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  background: rgb(254, 163, 1);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0%;
+  color: rgb(255, 255, 255);
+}
