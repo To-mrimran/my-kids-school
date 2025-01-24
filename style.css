@@ -400,3 +400,35 @@
   text-align: center;
 }
 
+/* Responsive */
+
+@media screen and (max-width: 576px) {
+  .nav-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  .link-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .banner-container{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+
+  }
+  .banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card-container-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
